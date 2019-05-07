@@ -1,5 +1,5 @@
 module.exports = {
-  base: "/",
+  base: "/nim-lang-example",
   title: "NIM Language Example",
   description: "NIM Language Example",
   dest: "public",
