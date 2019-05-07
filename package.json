@@ -1,0 +1,16 @@
+{
+  "name": "nim-lang-example",
+  "version": "1.0.0",
+  "description": "NIM Lang Example",
+  "main": "index.js",
+  "repository": "https://github.com/berviantoleo/nim-lang-example.git",
+  "author": "Bervianto Leo Pratama <bervianto.leo@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "devDependencies": {
+    "vuepress": "^0.14.11"
+  }
+}
