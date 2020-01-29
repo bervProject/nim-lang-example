@@ -1,7 +1,5 @@
 # NIM Language Example
 
-[[toc]]
-
 ## With Input
 
 ### IF Statement
