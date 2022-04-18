@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>NIM Language Example | NIM Language Example</title>
+    <meta name="generator" content="VuePress 1.9.7">
+    
+    <meta name="description" content="NIM Language Example">
+    
+    <link rel="preload" href="/nim-lang-example/assets/css/0.styles.a9e23f43.css" as="style"><link rel="preload" href="/nim-lang-example/assets/js/app.cd08a605.js" as="script"><link rel="preload" href="/nim-lang-example/assets/js/2.48fce981.js" as="script"><link rel="preload" href="/nim-lang-example/assets/js/7.c45ec142.js" as="script"><link rel="prefetch" href="/nim-lang-example/assets/js/3.e4bf98f8.js"><link rel="prefetch" href="/nim-lang-example/assets/js/4.449d8ea4.js"><link rel="prefetch" href="/nim-lang-example/assets/js/5.661e5717.js"><link rel="prefetch" href="/nim-lang-example/assets/js/6.036b9c9a.js">
+    <link rel="stylesheet" href="/nim-lang-example/assets/css/0.styles.a9e23f43.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/nim-lang-example/" aria-current="page" class="home-link router-link-exact-active router-link-active"><!----> <span class="site-name">NIM Language Example</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/nim-lang-example/" aria-current="page" class="nav-link router-link-exact-active router-link-active">
+  Home
+</a></div><div class="nav-item"><a href="https://github.com/berviantoleo/nim-lang-example" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Github
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/nim-lang-example/" aria-current="page" class="nav-link router-link-exact-active router-link-active">
+  Home
+</a></div><div class="nav-item"><a href="https://github.com/berviantoleo/nim-lang-example" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Github
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div> <!----></nav>  <ul class="sidebar-links"><li><a href="/nim-lang-example/" aria-current="page" class="active sidebar-link">NIM Language Example</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/nim-lang-example/#with-input" class="sidebar-link">With Input</a></li><li class="sidebar-sub-header"><a href="/nim-lang-example/#without-input" class="sidebar-link">Without Input</a></li></ul></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="nim-language-example"><a href="#nim-language-example" class="header-anchor">#</a> NIM Language Example</h1> <h2 id="with-input"><a href="#with-input" class="header-anchor">#</a> With Input</h2> <h3 id="if-statement"><a href="#if-statement" class="header-anchor">#</a> IF Statement</h3> <div class="language-nim extra-class"><pre class="language-nim"><code><span class="token keyword">let</span> name <span class="token operator">=</span> <span class="token function">readLine</span><span class="token punctuation">(</span>stdin<span class="token punctuation">)</span>
+<span class="token keyword">if</span> name <span class="token operator">==</span> <span class="token string">&quot;&quot;</span><span class="token operator">:</span>
+  echo <span class="token string">&quot;Poor soul, you lost your name?&quot;</span>
+<span class="token keyword">elif</span> name <span class="token operator">==</span> <span class="token string">&quot;name&quot;</span><span class="token operator">:</span>
+  echo <span class="token string">&quot;Very funny, your name is name.&quot;</span>
+<span class="token keyword">else</span><span class="token operator">:</span>
+  echo <span class="token string">&quot;Hi, &quot;</span><span class="token punctuation">,</span> name<span class="token punctuation">,</span> <span class="token string">&quot;!&quot;</span>
+</code></pre></div><h2 id="without-input"><a href="#without-input" class="header-anchor">#</a> Without Input</h2> <h3 id="hello-world"><a href="#hello-world" class="header-anchor">#</a> Hello World</h3> <div class="language-nim extra-class"><div class="highlight-lines"><div class="highlighted"> </div><br></div><pre class="language-nim"><code>echo <span class="token string">&quot;Hello World!&quot;</span>
+</code></pre></div><h3 id="maximum-number"><a href="#maximum-number" class="header-anchor">#</a> Maximum Number</h3> <div class="language-nim extra-class"><pre class="language-nim"><code><span class="token keyword">let</span> x <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">,</span> <span class="token number">4</span><span class="token punctuation">,</span> <span class="token number">2</span><span class="token punctuation">,</span> <span class="token number">3</span><span class="token punctuation">,</span> <span class="token number">5</span><span class="token punctuation">,</span> <span class="token number">8</span><span class="token punctuation">,</span> <span class="token number">9</span><span class="token punctuation">,</span> <span class="token number">7</span><span class="token punctuation">,</span> <span class="token number">6</span><span class="token punctuation">,</span> <span class="token number">0</span><span class="token punctuation">]</span>
+<span class="token keyword">var</span> max <span class="token operator">=</span> x<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span>
+<span class="token keyword">for</span> i <span class="token operator">in</span> <span class="token number">1</span><span class="token operator">..</span><span class="token function">high</span><span class="token punctuation">(</span>x<span class="token punctuation">)</span><span class="token operator">:</span>
+  <span class="token keyword">if</span> max <span class="token operator">&lt;</span> x<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token operator">:</span>
+    max <span class="token operator">=</span> x<span class="token punctuation">[</span>i<span class="token punctuation">]</span>
+
+echo <span class="token string">&quot;Nilai maksimal : &quot;</span><span class="token punctuation">,</span> max
+</code></pre></div><h3 id="swap-value"><a href="#swap-value" class="header-anchor">#</a> Swap Value</h3> <div class="language-nim extra-class"><pre class="language-nim"><code><span class="token keyword">var</span> x<span class="token punctuation">,</span> y<span class="token punctuation">,</span> temp<span class="token operator">:</span> int
+x <span class="token operator">=</span> <span class="token number">3</span>
+y <span class="token operator">=</span> <span class="token number">2</span>
+<span class="token comment"># show initial value</span>
+echo <span class="token string">&quot;x &quot;</span><span class="token punctuation">,</span> x
+echo <span class="token string">&quot;y &quot;</span><span class="token punctuation">,</span> y
+<span class="token comment"># swaping</span>
+temp <span class="token operator">=</span> x
+x <span class="token operator">=</span> y
+y <span class="token operator">=</span> temp
+<span class="token comment"># show swap value</span>
+echo <span class="token string">&quot;x &quot;</span><span class="token punctuation">,</span> x
+echo <span class="token string">&quot;y &quot;</span><span class="token punctuation">,</span> y
+</code></pre></div></div> <footer class="page-edit"><!----> <!----></footer> <!----> </main></div><div class="global-ui"></div></div>
+    <script src="/nim-lang-example/assets/js/app.cd08a605.js" defer></script><script src="/nim-lang-example/assets/js/2.48fce981.js" defer></script><script src="/nim-lang-example/assets/js/7.c45ec142.js" defer></script>
+  </body>
+</html>
