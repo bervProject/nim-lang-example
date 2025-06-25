@@ -1,43 +1,4 @@
-<!doctype html>
-<html lang="en-US">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <meta name="generator" content="VuePress 2.0.0-rc.23" />
-    <style>
-      :root {
-        --vp-c-bg: #fff;
-      }
-
-      [data-theme='dark'] {
-        --vp-c-bg: #1b1b1f;
-      }
-
-      html,
-      body {
-        background-color: var(--vp-c-bg);
-      }
-    </style>
-    <script>
-      const useChoice = localStorage.getItem('vuepress-color-scheme')
-      const systemStatus =
-        'matchMedia' in window
-          ? window.matchMedia('(prefers-color-scheme: dark)').matches
-          : false
-
-      if (useChoice === 'light') {
-        document.documentElement.dataset.theme = 'light'
-      } else if (useChoice === 'dark' || systemStatus) {
-        document.documentElement.dataset.theme = 'dark'
-      }
-    </script>
-    <title>NIM Language Example | NIM Language Example</title><meta name="description" content="NIM Language Example">
-    <link rel="preload" href="/nim-lang-example/assets/style-croDaXew.css" as="style"><link rel="stylesheet" href="/nim-lang-example/assets/style-croDaXew.css">
-    <link rel="modulepreload" href="/nim-lang-example/assets/app-_hbkX4cg.js"><link rel="modulepreload" href="/nim-lang-example/assets/index.html-DiDq3Rl7.js">
-    <link rel="prefetch" href="/nim-lang-example/assets/404.html-DJYiS_vg.js" as="script">
-  </head>
-  <body>
-    <div id="app"><!--[--><div class="vp-theme-container external-link-icon" vp-container><!--[--><header class="vp-navbar" vp-navbar><div class="vp-toggle-sidebar-button" title="toggle sidebar" aria-expanded="false" role="button" tabindex="0"><div class="icon" aria-hidden="true"><span></span><span></span><span></span></div></div><span><a class="route-link" href="/nim-lang-example/"><!----><span class="vp-site-name" aria-hidden="true">NIM Language Example</span></a></span><div class="vp-navbar-items-wrapper" style=""><!--[--><!--]--><!----><!--[--><!--]--><button type="button" class="vp-toggle-color-mode-button" title="toggle color mode"><svg class="light-icon" viewbox="0 0 32 32" style=""><path d="M16 12.005a4 4 0 1 1-4 4a4.005 4.005 0 0 1 4-4m0-2a6 6 0 1 0 6 6a6 6 0 0 0-6-6z" fill="currentColor"></path><path d="M5.394 6.813l1.414-1.415l3.506 3.506L8.9 10.318z" fill="currentColor"></path><path d="M2 15.005h5v2H2z" fill="currentColor"></path><path d="M5.394 25.197L8.9 21.691l1.414 1.415l-3.506 3.505z" fill="currentColor"></path><path d="M15 25.005h2v5h-2z" fill="currentColor"></path><path d="M21.687 23.106l1.414-1.415l3.506 3.506l-1.414 1.414z" fill="currentColor"></path><path d="M25 15.005h5v2h-5z" fill="currentColor"></path><path d="M21.687 8.904l3.506-3.506l1.414 1.415l-3.506 3.505z" fill="currentColor"></path><path d="M15 2.005h2v5h-2z" fill="currentColor"></path></svg><svg class="dark-icon" viewbox="0 0 32 32" style="display:none;"><path d="M13.502 5.414a15.075 15.075 0 0 0 11.594 18.194a11.113 11.113 0 0 1-7.975 3.39c-.138 0-.278.005-.418 0a11.094 11.094 0 0 1-3.2-21.584M14.98 3a1.002 1.002 0 0 0-.175.016a13.096 13.096 0 0 0 1.825 25.981c.164.006.328 0 .49 0a13.072 13.072 0 0 0 10.703-5.555a1.01 1.01 0 0 0-.783-1.565A13.08 13.08 0 0 1 15.89 4.38A1.015 1.015 0 0 0 14.98 3z" fill="currentColor"></path></svg></button><!----></div></header><!--]--><div class="vp-sidebar-mask"></div><!--[--><aside class="vp-sidebar" vp-sidebar><!----><!--[--><!--]--><ul class="vp-sidebar-items"><!--[--><li><a class="route-link route-link-active auto-link vp-sidebar-item vp-sidebar-heading active" href="/nim-lang-example/" aria-label="NIM Language Example"><!--[--><!--[--><!--]--><!--]-->NIM Language Example<!--[--><!--[--><!--]--><!--]--></a><!----></li><!--]--></ul><!--[--><!--]--></aside><!--]--><!--[--><main class="vp-page"><!--[--><!--]--><div vp-content><!--[--><!--]--><div id="content"><h1 id="nim-language-example" tabindex="-1"><a class="header-anchor" href="#nim-language-example"><span>NIM Language Example</span></a></h1><h2 id="with-input" tabindex="-1"><a class="header-anchor" href="#with-input"><span>With Input</span></a></h2><h3 id="if-statement" tabindex="-1"><a class="header-anchor" href="#if-statement"><span>IF Statement</span></a></h3><div class="language-nim line-numbers-mode" data-highlighter="prismjs" data-ext="nim"><pre><code class="language-nim"><span class="line"><span class="token keyword">let</span> name <span class="token operator">=</span> <span class="token function">readLine</span><span class="token punctuation">(</span>stdin<span class="token punctuation">)</span></span>
+import{_ as s,c as a,a as e,o as p}from"./app-_hbkX4cg.js";const t={};function l(i,n){return p(),a("div",null,n[0]||(n[0]=[e(`<h1 id="nim-language-example" tabindex="-1"><a class="header-anchor" href="#nim-language-example"><span>NIM Language Example</span></a></h1><h2 id="with-input" tabindex="-1"><a class="header-anchor" href="#with-input"><span>With Input</span></a></h2><h3 id="if-statement" tabindex="-1"><a class="header-anchor" href="#if-statement"><span>IF Statement</span></a></h3><div class="language-nim line-numbers-mode" data-highlighter="prismjs" data-ext="nim"><pre><code class="language-nim"><span class="line"><span class="token keyword">let</span> name <span class="token operator">=</span> <span class="token function">readLine</span><span class="token punctuation">(</span>stdin<span class="token punctuation">)</span></span>
 <span class="line"><span class="token keyword">if</span> name <span class="token operator">==</span> <span class="token string">&quot;&quot;</span><span class="token operator">:</span></span>
 <span class="line">  echo <span class="token string">&quot;Poor soul, you lost your name?&quot;</span></span>
 <span class="line"><span class="token keyword">elif</span> name <span class="token operator">==</span> <span class="token string">&quot;name&quot;</span><span class="token operator">:</span></span>
@@ -65,7 +26,4 @@
 <span class="line"><span class="token comment"># show swap value</span></span>
 <span class="line">echo <span class="token string">&quot;x &quot;</span><span class="token punctuation">,</span> x</span>
 <span class="line">echo <span class="token string">&quot;y &quot;</span><span class="token punctuation">,</span> y</span>
-<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div></div><!--[--><!--]--></div><footer class="vp-page-meta"><!----><div class="vp-meta-item git-info"><div class="vp-meta-item last-updated"><span class="meta-item-label">Last Updated: </span><time class="meta-item-info" datetime="2025-06-25T04:50:59.000Z" data-allow-mismatch>6/25/25, 4:50 AM</time></div><div class="vp-meta-item contributors"><span class="meta-item-label">Contributors: </span><span class="meta-item-info"><!--[--><!--[--><span class="contributor" title="email: bervianto.leo@gmail.com">Bervianto Leo Pratama</span><!----><!--]--><!--]--></span></div></div></footer><!----><!--[--><!--]--></main><!--]--></div><!--[--><!----><!--]--><!--]--></div>
-    <script type="module" src="/nim-lang-example/assets/app-_hbkX4cg.js" defer></script>
-  </body>
-</html>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div>`,11)]))}const c=s(t,[["render",l],["__file","index.html.vue"]]),r=JSON.parse('{"path":"/","title":"NIM Language Example","lang":"en-US","frontmatter":{},"git":{"updatedTime":1750827059000,"contributors":[{"name":"Bervianto Leo Pratama","username":"","email":"bervianto.leo@gmail.com","commits":3}],"changelog":[{"hash":"df62eee6a09cdf41baa5b6cfd8d03f842c33eed7","time":1750827059000,"email":"bervianto.leo@gmail.com","author":"Bervianto Leo Pratama","message":"fix: update"},{"hash":"38de34e59865a513c933c7611b000c299c1abb8a","time":1580294783000,"email":"bervianto.leo@gmail.com","author":"Bervianto Leo Pratama","message":"Remove Table of Content"},{"hash":"fcce85ccf1ca5437b8aea22960ed1d545a7968c6","time":1557217388000,"email":"bervianto.leo@gmail.com","author":"Bervianto Leo Pratama","message":"add vuepress"}]},"filePathRelative":"README.md"}');export{c as comp,r as data};
