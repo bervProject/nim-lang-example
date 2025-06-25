@@ -4,18 +4,18 @@
 
 ### IF Statement
 
-<<< @/src/with-input/if_statement.nim
+@[code nim](../src/with-input/if_statement.nim)
 
 ## Without Input
 
 ### Hello World
 
-<<< @/src/without-input/hello_world.nim{1}
+@[code nim{1}](../src/without-input/hello_world.nim)
 
 ### Maximum Number
 
-<<< @/src/without-input/maximum_number.nim
+@[code](../src/without-input/maximum_number.nim)
 
 ### Swap Value
 
-<<< @/src/without-input/swap_value.nim
+@[code](../src/without-input/swap_value.nim)
